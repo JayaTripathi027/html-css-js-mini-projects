@@ -1,0 +1,79 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pic1{
+    background-image: url(imgs/image1.png);
+    min-height: 100%;
+}
+
+.pic2{
+    background-image: url(imgs/image2.png);
+    min-height: 500px;
+}
+
+.pic3{
+    background-image: url(imgs/image3.png);
+    min-height: 500px;
+}
+
+.pic1, .pic2, .pic3
+{
+    /* these below property will be same for all images */
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   /*we can increase body width without having the bg pic again again */
+
+    /* we add the parallax effect */
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 6px;
+    font-size: 31px;
+}
+
+.textbg{
+    background-color: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Section One Part2*/
+.one{
+    padding: 40px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+h2{
+    text-transform: uppercase;
+}
+
+/* section two Part2 */
+.two{
+    padding: 40px 80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #ddd;
+}
+
+/* Part1 */
+.textbg1{
+    opacity: 0.9;
+
+}
+
